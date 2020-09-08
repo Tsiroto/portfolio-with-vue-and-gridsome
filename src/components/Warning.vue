@@ -1,5 +1,5 @@
 <template>
-  <section class="warning-section">
+  <section id="warning" class="warning-section">
     <v-container>
       <v-row>
         <v-col>
