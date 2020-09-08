@@ -23,5 +23,6 @@
 <style scoped>
 .g-image {
   border-radius: 100%;
+  margin-left: 20px;
 }
 </style>
