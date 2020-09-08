@@ -52,7 +52,7 @@
 
 <style scoped>
 .contact-section {
-  background-color: #F5E4C3;
+  background-color: #f9f8f7;
 }
 .contact-icon {
   height: 30px;

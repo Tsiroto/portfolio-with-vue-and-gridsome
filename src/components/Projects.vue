@@ -7,6 +7,7 @@
         </v-col>
       </v-row>
       <v-row class="justify-space-around mb-8 mt-4">
+        
         <v-card
           v-for="project in projects"
           :key="project.name"
@@ -46,16 +47,23 @@ export default {
     return {
       projects: [
         {
-          name: 'Project 1',
+          name: 'Planting Website',
           github: 'https://github.com/',
           description: 'This is a great app.',
-          image: 'https://picsum.photos/300/380'
+          image: 'https://assets.codepen.io/3765537/proj1.jpg'
         },
         {
-          name: 'Project 2',
+          name: 'Laptop Project',
           github: 'https://github.com',
           description: 'This feels like a great app, but it is not.',
-          image: 'https://picsum.photos/300/380'        }
+          image: 'https://assets.codepen.io/3765537/proj2.jpg'
+        },
+        {
+          name: 'Hiking App',
+          github: 'https://github.com',
+          description: 'What does this feel like?',
+          image: 'https://assets.codepen.io/3765537/proj3.jpg'
+        }
       ]
     }
   },
@@ -72,7 +80,7 @@ export default {
 
 <style scoped>
 .project-section {
-  background-color: #F5E4C3;
+  background-color: #f9f8f7;
 }
 .v-image {
   border-bottom: 1px solid;
