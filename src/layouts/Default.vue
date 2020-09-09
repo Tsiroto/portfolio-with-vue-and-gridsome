@@ -83,6 +83,6 @@ html {
   flex: 1 0;
 }
 .v-navigation-drawer__content {
-  background: #75d9e2;
+  background: #F5ECEB;
 }
 </style>

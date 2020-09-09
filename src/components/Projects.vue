@@ -80,7 +80,7 @@ export default {
 
 <style scoped>
 .project-section {
-  background-color: #f9f8f7;
+  /* background-color: #f9f8f7; */
 }
 .v-image {
   border-bottom: 1px solid;

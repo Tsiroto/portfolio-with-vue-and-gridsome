@@ -58,7 +58,7 @@
           text: '5G publicly declared responsible for the human stupidity'
         },
         {
-          color: 'amber',
+          color: 'brown',
           year: '1990',
           title: 'A new Power is rising',
           text: '5G has been slipping in the shadows, spreading fear and headaches'
@@ -75,5 +75,7 @@
 </script>
 
 <style scoped>
-
+.warning-section {
+  background-color: #F5ECEB;
+}
 </style>
