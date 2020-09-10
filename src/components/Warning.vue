@@ -8,27 +8,25 @@
       </v-row>
       <v-row class="w-80">
         <v-col>
-          <v-timeline>
-            <v-timeline-item
-              v-for="(year, i) in years"
-              :key="i"
-              :color="year.color"
-              small
+          <div>
+            <v-switch v-model="reverse" label="Toggle reverse"></v-switch><br>
+            <v-timeline :reverse="reverse" :dense="$vuetify.breakpoint.smAndDown"
+            class="tmln-itm"
             >
-              <template v-slot:opposite>
-                <span
-                  :class="`headline font-weight-bold ${year.color}--text`"
-                  v-text="year.year"
-                ></span>
-              </template>
-              <div class="py-4">
-                <h2 :class="`headline font-weight-light mb-4 ${year.color}--text`">{{ year.title}}</h2>
-                <div>
-                  {{ year.text }}
-                </div>
-              </div>
-            </v-timeline-item>
-          </v-timeline>
+              <v-timeline-item
+                v-for="(item, i) in items"
+                :key="i"
+              >
+                <span slot="opposite">{{ item.year }}</span>
+                <v-card class="elevation-4">
+                  <v-card-title class="headline">{{ item.title }}</v-card-title>
+                  <v-card-text>
+                    {{ item.text }}
+                  </v-card-text>
+                </v-card>
+              </v-timeline-item>
+            </v-timeline>
+          </div>
         </v-col>
       </v-row>
     </v-container>
@@ -38,36 +36,37 @@
 <script>
   export default {
     data: () => ({
-      years: [
+      reverse: true,
+      items: [
         {
-          color: 'cyan',
           year: '2022',
           title: '5G Dominance',
           text: 'World wields under the power of the true 5G King'
         },
         {
-          color: 'green',
           year: '2020',
           title: 'Reactions to 5G',
           text: 'Pacifists and religions join forces for a better tomorrow, 5G grows stronger'
         },
         {
-          color: 'pink',
           year: '2016',
           title: 'The true self',
           text: '5G publicly declared responsible for the human stupidity'
         },
         {
-          color: 'brown',
           year: '1990',
           title: 'A new Power is rising',
           text: '5G has been slipping in the shadows, spreading fear and headaches'
         },
         {
-          color: 'orange',
-          year: '860',
+          year: '1760',
           title: 'Rumors',
           text: 'About an evil future technology, suspicions of human extinction'
+        },
+        {
+          year: '0',
+          title: 'The birth of everything',
+          text: 'At the beginning there was nothing. Then suddenly there was something'
         },
       ],
     }),
@@ -77,5 +76,9 @@
 <style scoped>
 .warning-section {
   background-color: #F5ECEB;
+}
+.tmln-itm {
+  max-width: 80%;
+  margin: auto;
 }
 </style>

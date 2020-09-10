@@ -5,11 +5,11 @@
     width="256"
     >
       <v-navigation-drawer permanent fixed>
-        <v-list-item>
+        <v-list-item class="fixed-nav-header">
           <v-list-item-avatar>
-            <img src="https://randomuser.me/api/portraits/men/81.jpg">
+            <img src="@/img/prof2.jpg">
           </v-list-item-avatar>
-          <v-list-item-content>
+          <v-list-item-content class="d-none d-md-flex fixed-nav-title">
             <v-list-item-title class="title">
               Giorgos Ntoufas
             </v-list-item-title>
@@ -35,7 +35,9 @@
               <v-icon>{{ item.icon }}</v-icon>
             </v-list-item-icon>
 
-            <v-list-item-content>
+            <v-list-item-content
+            class="d-none d-md-flex"
+            >
               <v-list-item-title>{{ item.title }}</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
@@ -75,6 +77,11 @@ query {
 <style>
 html {
   scroll-behavior: smooth;
+  font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+}
+.v-application {
+    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    letter-spacing: -0.5px;
 }
 .v-application--wrap {
   flex-direction: row;
@@ -84,5 +91,11 @@ html {
 }
 .v-navigation-drawer__content {
   background: #F5ECEB;
+}
+.fixed-nav-title {
+  padding: 0;
+}
+.fixed-nav-header {
+  padding: 8px 16px;
 }
 </style>

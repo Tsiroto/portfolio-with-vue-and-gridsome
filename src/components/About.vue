@@ -1,19 +1,28 @@
 <template>
   <section id="about" class="about-section">
     <v-container>
-      <v-row>
-        <v-col sm="6">
-          <g-image alt="Example image" src="~/img/prof2.jpg" width="350" />
+      <v-row
+      class="align-center about-sects"
+      >
+        <v-col class="profimage-col">
+          <g-image alt="profpic" src="~/img/prof2.jpg" 
+          class="profimage"
+          />
         </v-col>
-        <v-col sm="6" class="d-flex flex-column justify-center">
-          <h1>Hi, I'm Giorgos</h1>
-          <div>
-            <p>Someday I'm going to be a real software developer ...</p>
-
-            <p>YouTube Channel: <a href="https://youtube.com/">Chiroto</a></p>
-
-            <p>Github: <a href="https://github.com/chiroto">Chiroto</a></p>
-          </div>
+        <v-col>
+          <v-card
+          class="align-center v-sheet--shaped"
+          :elevation="6"
+          >
+            <v-card-title>Hi, I'm Giorgos</v-card-title>
+            <v-card-subtitle>
+              Someday I'm going to be a real software developer
+              </v-card-subtitle>
+            <v-card-subtitle>
+              YouTube Channel: <a href="https://youtube.com/">Chiroto</a><br>
+              Github: <a href="https://github.com/chiroto">Chiroto</a>
+            </v-card-subtitle>
+          </v-card>
         </v-col>
       </v-row>
     </v-container>
@@ -24,8 +33,27 @@
 .about-section {
   background-color: #D7766C;
 }
+.about-sects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.about-sects * {
+  min-width: 360px;
+  max-width: 450px;
+  margin: 12px 20px;
+}
 .g-image {
   border-radius: 100%;
-  margin-left: 20px;
+  /* margin-left: 20px; */
+}
+.profimage {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+.profimage-col {
+  max-width: 350px;
 }
 </style>

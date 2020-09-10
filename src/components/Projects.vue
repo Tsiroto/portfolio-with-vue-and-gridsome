@@ -11,7 +11,7 @@
         <v-card
           v-for="project in projects"
           :key="project.name"
-          class=""
+          class="project-card"
           max-width="300"
         >
           <v-img
@@ -79,8 +79,8 @@ export default {
 </script>
 
 <style scoped>
-.project-section {
-  /* background-color: #f9f8f7; */
+.project-card {
+  margin: 8px 12px;
 }
 .v-image {
   border-bottom: 1px solid;
