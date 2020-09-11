@@ -2,9 +2,9 @@
   <v-app>
     <v-card
     height="100%"
-    width="256"
+    
     >
-      <v-navigation-drawer permanent fixed>
+      <v-navigation-drawer permanent fixed expand-on-hover>
         <v-list-item class="fixed-nav-header">
           <v-list-item-avatar>
             <img src="@/img/prof2.jpg">
@@ -96,6 +96,6 @@ html {
   padding: 0;
 }
 .fixed-nav-header {
-  padding: 8px 16px;
+  padding: 8px 10px;
 }
 </style>
