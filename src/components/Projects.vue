@@ -47,9 +47,9 @@ export default {
     return {
       projects: [
         {
-          name: 'Planting Website',
-          github: 'https://github.com/',
-          description: 'This is a great app.',
+          name: 'This is evidence',
+          github: 'https://github.com/Tsiroto/vue-gridsome-test',
+          description: 'Lets plant it.',
           image: 'https://assets.codepen.io/3765537/proj1.jpg'
         },
         {

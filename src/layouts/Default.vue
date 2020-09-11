@@ -2,14 +2,13 @@
   <v-app>
     <v-card
     height="100%"
-    
     >
       <v-navigation-drawer permanent fixed expand-on-hover>
         <v-list-item class="fixed-nav-header">
           <v-list-item-avatar>
             <img src="@/img/prof2.jpg">
           </v-list-item-avatar>
-          <v-list-item-content class="d-none d-md-flex fixed-nav-title">
+          <v-list-item-content class="fixed-nav-title">
             <v-list-item-title class="title">
               Giorgos Ntoufas
             </v-list-item-title>
@@ -35,9 +34,7 @@
               <v-icon>{{ item.icon }}</v-icon>
             </v-list-item-icon>
 
-            <v-list-item-content
-            class="d-none d-md-flex"
-            >
+            <v-list-item-content>
               <v-list-item-title>{{ item.title }}</v-list-item-title>
             </v-list-item-content>
           </v-list-item>

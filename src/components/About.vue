@@ -20,7 +20,7 @@
               </v-card-subtitle>
             <v-card-subtitle>
               YouTube Channel: <a href="https://youtube.com/">Chiroto</a><br>
-              Github: <a href="https://github.com/chiroto">Chiroto</a>
+              Github: <a href="https://github.com/Tsiroto">Chiroto</a>
             </v-card-subtitle>
           </v-card>
         </v-col>
@@ -46,7 +46,6 @@
 }
 .g-image {
   border-radius: 100%;
-  /* margin-left: 20px; */
 }
 .profimage {
   max-width: 100%;
