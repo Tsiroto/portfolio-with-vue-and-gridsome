@@ -3,7 +3,7 @@
     <v-card
     height="100%"
     >
-      <v-navigation-drawer permanent fixed expand-on-hover>
+      <v-navigation-drawer permanent fixed>
         <v-list-item class="fixed-nav-header">
           <v-list-item-avatar>
             <img src="@/img/prof2.jpg">
