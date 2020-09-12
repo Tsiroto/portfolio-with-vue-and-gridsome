@@ -75,7 +75,7 @@
 
 <style scoped>
 .warning-section {
-  background-color: #F5ECEB;
+  background-color: #eefbff;
 }
 .tmln-itm {
   max-width: 80%;

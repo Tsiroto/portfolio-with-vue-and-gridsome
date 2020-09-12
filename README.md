@@ -13,9 +13,6 @@
 
 ### Colors
 
-* Teal: #BDF0F4
-* Orangered: #D7766C
-* Cream: #F5ECEB
-* Brownish: #8C524F
-* Dark Gray: #545454
-
+* Sidebar blue gradient: #1c6b84
+* Aboutme header gradient: #1693b4
+* salmon: #D7766C

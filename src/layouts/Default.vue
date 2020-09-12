@@ -9,10 +9,10 @@
             <img src="@/img/prof2.jpg">
           </v-list-item-avatar>
           <v-list-item-content class="fixed-nav-title">
-            <v-list-item-title class="title">
+            <v-list-item-title class="title white--text">
               Giorgos Ntoufas
             </v-list-item-title>
-            <v-list-item-subtitle>
+            <v-list-item-subtitle class="white--text">
               Software Developer
             </v-list-item-subtitle>
           </v-list-item-content>
@@ -31,11 +31,11 @@
             :to="`#${item.title.toLowerCase().replace(' ', '-')}`"
           >
             <v-list-item-icon>
-              <v-icon>{{ item.icon }}</v-icon>
+              <v-icon class="white--text">{{ item.icon }}</v-icon>
             </v-list-item-icon>
 
             <v-list-item-content>
-              <v-list-item-title>{{ item.title }}</v-list-item-title>
+              <v-list-item-title class="white--text">{{ item.title }}</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
         </v-list>
@@ -87,7 +87,12 @@ html {
   flex: 1 0;
 }
 .v-navigation-drawer__content {
-  background: #F5ECEB;
+  /* background: #F5ECEB; */
+  background: rgb(28,107,132);
+  background: -moz-linear-gradient(270deg, rgb(28 107 132 / 1) 0%, rgba(22,147,180,1) 100%);
+  background: -webkit-linear-gradient(270deg, rgb(28 107 132 / 1) 0%, rgba(22,147,180,1) 100%);
+  background: linear-gradient(270deg, rgb(28 107 132 / 1) 0%, rgba(22,147,180,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1c6b84",endColorstr="#1693b4",GradientType=1);
 }
 .fixed-nav-title {
   padding: 0;
