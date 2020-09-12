@@ -14,13 +14,16 @@
           class="align-center v-sheet--shaped"
           :elevation="6"
           >
-            <v-card-title class="font-weight-bold">Hi, I'm Giorgos</v-card-title>
-            <v-card-subtitle class="font-weight-regular">
+            <v-card-title
+            class="blue-grey--text text--darken-2 font-weight-bold text-h5"
+            >
+            Hi, I'm Giorgos
+            </v-card-title>
+            <v-card-subtitle class="blue-grey--text text--darken-2">
               Someday I'm going to be a real software developer
               </v-card-subtitle>
             <v-card-subtitle>
-              YouTube Channel: <a href="https://youtube.com/chiroto">Chiroto</a><br>
-              Github: <a href="https://github.com/Tsiroto">Tsiroto</a>(chiroto was unavailable)
+              Github: <a href="https://github.com/Tsiroto" class="indigo--text text--lighten-2">Tsiroto</a>
             </v-card-subtitle>
           </v-card>
         </v-col>

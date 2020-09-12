@@ -3,7 +3,7 @@
     <v-container>
       <v-row>
         <v-col>
-          <h1 class="text-center">5G Warning</h1>
+          <h1 class="text-center red--text text--darken-1 text-h4 font-weight-bold">5G Warning</h1>
         </v-col>
       </v-row>
       <v-row class="w-80">

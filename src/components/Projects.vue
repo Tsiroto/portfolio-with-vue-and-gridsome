@@ -19,22 +19,57 @@
             height="200px"
             :src="project.image"
           />
+
           <v-card-title>{{ project.name }}</v-card-title>
 
           <v-card-text class="text--primary">
             {{ truncate(project.description) }}
           </v-card-text>
 
-          <v-card-actions>
-            <v-btn
-              color="orange"
-              text
-              :href="project.github"
-            >
-              Github Repo
-            </v-btn>
-
-          </v-card-actions>
+          <div class="offset-10">
+            <v-spacer></v-spacer>
+            <v-menu top left>
+            <template v-slot:activator="{ on, attrs }">
+              <v-btn
+                icon
+                v-bind="attrs"
+                v-on="on"
+              >
+                <v-icon>mdi-dots-vertical</v-icon>
+              </v-btn>
+            </template>
+            <v-list dense>
+              <v-subheader>Project Options</v-subheader>
+              <v-list-item class="item-list">
+                <v-btn
+                color="orange"
+                text
+                :href="project.github"
+              >
+                Information
+              </v-btn>
+              </v-list-item>
+              <v-list-item class="item-list">
+                <v-btn
+                color="orange"
+                text
+                :href="project.github"
+              >
+                Preview
+              </v-btn>
+              </v-list-item>
+              <v-list-item class="item-list">
+              <v-btn
+                color="orange"
+                text
+                :href="project.github"
+              >
+                Github Repo
+              </v-btn>
+              </v-list-item>
+            </v-list>
+          </v-menu>
+          </div>
         </v-card>
       </v-row>
     </v-container>
@@ -64,7 +99,12 @@ export default {
           description: 'What does this feel like?',
           image: 'https://assets.codepen.io/3765537/proj3.jpg'
         }
-      ]
+      ],
+      projectopts: [
+        { option: 'Information' },
+        { option: 'Preview' },
+        { option: 'Github Repo' },
+      ],
     }
   },
   methods: {
@@ -84,5 +124,9 @@ export default {
 }
 .v-image {
   border-bottom: 1px solid;
+}
+.item-list:hover {
+  background: #def6ff96;
+  transition: all 0.20s;
 }
 </style>

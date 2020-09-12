@@ -87,7 +87,6 @@ html {
   flex: 1 0;
 }
 .v-navigation-drawer__content {
-  /* background: #F5ECEB; */
   background: rgb(28,107,132);
   background: -moz-linear-gradient(270deg, rgb(28 107 132 / 1) 0%, rgba(22,147,180,1) 100%);
   background: -webkit-linear-gradient(270deg, rgb(28 107 132 / 1) 0%, rgba(22,147,180,1) 100%);
@@ -99,5 +98,23 @@ html {
 }
 .fixed-nav-header {
   padding: 8px 10px;
+}
+/* Scrollbar  */
+::-webkit-scrollbar {
+  width: 20px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px 1px rgb(150, 180, 201);
+  background: #99cde5;
+  /* border-radius: 10px; */
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #11477a;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(90, 156, 187);
 }
 </style>
