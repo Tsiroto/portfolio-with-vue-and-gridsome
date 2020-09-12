@@ -1,4 +1,4 @@
-# Hmm yep, this is me typing something in the readme file.
+## Hmm yep, this is something in the readme file.
 * Apparently, this is the product of watching Faraday Academy's webcast about Gridsome
 * Tutorial url on youtube: https://www.youtube.com/watch?v=laktPX9wyXY
 * This is my attempt for similar project
