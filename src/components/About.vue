@@ -14,13 +14,16 @@
           class="align-center v-sheet--shaped"
           :elevation="6"
           >
-            <v-card-title>Hi, I'm Giorgos</v-card-title>
-            <v-card-subtitle>
+            <v-card-title
+            class="blue-grey--text text--darken-2 font-weight-bold text-h5"
+            >
+            Hi, I'm Giorgos
+            </v-card-title>
+            <v-card-subtitle class="blue-grey--text text--darken-2">
               Someday I'm going to be a real software developer
               </v-card-subtitle>
             <v-card-subtitle>
-              YouTube Channel: <a href="https://youtube.com/">Chiroto</a><br>
-              Github: <a href="https://github.com/chiroto">Chiroto</a>
+              Github: <a href="https://github.com/Tsiroto" class="indigo--text text--lighten-2">Tsiroto</a>
             </v-card-subtitle>
           </v-card>
         </v-col>
@@ -31,7 +34,11 @@
 
 <style scoped>
 .about-section {
-  background-color: #D7766C;
+  background: rgb(22,147,180);
+  background: -moz-linear-gradient(120deg, rgba(22,147,180,1) 0%, rgba(47,79,132,1) 100%);
+  background: -webkit-linear-gradient(120deg, rgba(22,147,180,1) 0%, rgba(47,79,132,1) 100%);
+  background: linear-gradient(120deg, rgba(22,147,180,1) 0%, rgba(47,79,132,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1693b4",endColorstr="#2f4f84",GradientType=1);
 }
 .about-sects {
   display: flex;
@@ -46,7 +53,6 @@
 }
 .g-image {
   border-radius: 100%;
-  /* margin-left: 20px; */
 }
 .profimage {
   max-width: 100%;

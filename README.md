@@ -1,25 +1,18 @@
-# Default starter for Gridsome
-
-This is the project you get when you run `gridsome create new-project`.
-
-### 1. Install Gridsome CLI tool if you don't have
-
-`npm install --global @gridsome/cli`
-
-### 2. Create a Gridsome project
-
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+## Hmm yep, this is something in the readme file.
+* Apparently, this is the product of watching Faraday Academy's webcast about Gridsome
+* Tutorial url on youtube: https://www.youtube.com/watch?v=laktPX9wyXY
+* This is my attempt for similar project
 
 ## Design
+* This is a single webpage in the shape of something like a portfolio
+* I dont really have portfolio content, so it wont work for me I guess
+
+### Layout
+
+* I think I will stick with a hoverable/expandable sidebar
 
 ### Colors
 
-* Teal: #BDF0F4
-* Orangered: #D7766C
-* Cream: #F5ECEB
-* Brownish: #8C524F
-* Dark Gray: #545454
-
+* Sidebar blue gradient: #1c6b84
+* Aboutme header gradient: #1693b4
+* salmon: #D7766C

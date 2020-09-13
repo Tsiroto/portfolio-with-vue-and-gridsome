@@ -2,7 +2,7 @@
   <Layout>
     <About />
     <Projects />
-    <Warning />
+    <Timeline />
     <Contact />
   </Layout>
 </template>
@@ -10,7 +10,7 @@
 <script>
 import About from '@/components/About.vue'
 import Projects from '@/components/Projects.vue'
-import Warning from '@/components/Warning.vue'
+import Timeline from '@/components/Timeline.vue'
 import Contact from '@/components/Contact.vue'
 
 export default {
@@ -20,7 +20,7 @@ export default {
   components: {
     About,
     Projects,
-    Warning,
+    Timeline,
     Contact
   }
 }
