@@ -11,7 +11,7 @@
         </v-col>
         <v-col>
           <v-card
-          class="align-center v-sheet--shaped"
+          class="align-center v-sheet--shaped cyan lighten-5"
           :elevation="6"
           >
             <v-card-title
