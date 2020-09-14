@@ -3,7 +3,7 @@
 * Tutorial url on youtube: https://www.youtube.com/watch?v=laktPX9wyXY
 * This is my attempt for similar project
 
-## Design
+### Design
 * This is a single webpage in the shape of something like a portfolio
 * I dont really have portfolio content, so it wont work for me I guess
 
