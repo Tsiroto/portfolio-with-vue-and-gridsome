@@ -3,15 +3,6 @@
 * Tutorial url on youtube: https://www.youtube.com/watch?v=laktPX9wyXY
 * This is my attempt for similar project
 
-## Preview
-
-<img
-src=“https://assets.codepen.io/3765537/preview.jpg”
-raw=true
-alt=“Subject Pronouns”
-style=“margin-right: 10px;”
-/>
-
 ## Design
 * This is a single webpage in the shape of something like a portfolio
 * I dont really have portfolio content, so it wont work for me I guess
