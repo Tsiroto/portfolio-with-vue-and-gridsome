@@ -1,18 +1,18 @@
 <template>
-  <section id="about" class="about-section">
+  <section id="about" class="about-section d-flex align-center mb-16">
     <v-container>
       <v-row
       class="align-center about-sects"
       >
         <v-col class="profimage-col">
           <g-image alt="profpic" src="~/img/prof2.jpg" 
-          class="profimage"
+          class="profimage elevation-10"
           />
         </v-col>
         <v-col>
           <v-card
           class="align-center v-sheet--shaped cyan lighten-5"
-          :elevation="6"
+          :elevation="10"
           >
             <v-card-title
             class="blue-grey--text text--darken-2 font-weight-bold text-h5"
@@ -39,6 +39,10 @@
   background: -webkit-linear-gradient(120deg, rgba(22,147,180,1) 0%, rgba(47,79,132,1) 100%);
   background: linear-gradient(120deg, rgba(22,147,180,1) 0%, rgba(47,79,132,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1693b4",endColorstr="#2f4f84",GradientType=1);
+  height: 100vh;
+  background-image: url('https://assets.codepen.io/3765537/bck.jpg');
+  background-attachment: fixed;
+  clip-path: ellipse(100vw 98vh at 50% 0%);
 }
 .about-sects {
   display: flex;
