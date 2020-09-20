@@ -55,6 +55,7 @@
           { title: 'About', icon: 'mdi-account-box-outline' },
           { title: 'Projects', icon: 'mdi-apps' },
           { title: 'Warning', icon: 'mdi-access-point' },
+          { title: 'People', icon: 'mdi-account-alert-outline' },
           { title: 'Contact', icon: 'mdi-message-text-outline' },
         ],
         right: null,
