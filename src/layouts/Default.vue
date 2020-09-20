@@ -55,6 +55,7 @@
           { title: 'About', icon: 'mdi-account-box-outline' },
           { title: 'Projects', icon: 'mdi-apps' },
           { title: 'Warning', icon: 'mdi-access-point' },
+          { title: 'People', icon: 'mdi-account-alert-outline' },
           { title: 'Contact', icon: 'mdi-message-text-outline' },
         ],
         right: null,
@@ -92,6 +93,7 @@ html {
   background: -webkit-linear-gradient(270deg, rgb(28 107 132 / 1) 0%, rgba(22,147,180,1) 100%);
   background: linear-gradient(270deg, rgb(28 107 132 / 1) 0%, rgba(22,147,180,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1c6b84",endColorstr="#1693b4",GradientType=1);
+  background: linear-gradient(270deg, #2c858a 0%, #46c0c5 100%);
 }
 .fixed-nav-title {
   padding: 0;
@@ -105,16 +107,15 @@ html {
 }
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px 1px rgb(150, 180, 201);
-  background: #99cde5;
-  /* border-radius: 10px; */
+  box-shadow: inset 0 0 12px 1px rgb(168, 191, 206);
+  /* background: #99cde559; */
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #11477a;
+  background: #2c858a;
   border-radius: 8px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(90, 156, 187);
+  background: #1a4d50;
 }
 </style>

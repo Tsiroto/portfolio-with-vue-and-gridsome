@@ -1,18 +1,18 @@
 <template>
-  <section id="about" class="about-section">
+  <section id="about" class="about-section d-flex align-center mb-16">
     <v-container>
       <v-row
       class="align-center about-sects"
       >
         <v-col class="profimage-col">
           <g-image alt="profpic" src="~/img/prof2.jpg" 
-          class="profimage"
+          class="profimage elevation-10"
           />
         </v-col>
         <v-col>
           <v-card
-          class="align-center v-sheet--shaped cyan lighten-5"
-          :elevation="6"
+          class="align-center v-sheet--shaped header-sub"
+          :elevation="14"
           >
             <v-card-title
             class="blue-grey--text text--darken-2 font-weight-bold text-h5"
@@ -23,7 +23,7 @@
               Someday I'm going to be a real software developer
               </v-card-subtitle>
             <v-card-subtitle>
-              Github: <a href="https://github.com/Tsiroto" class="indigo--text text--lighten-2">Tsiroto</a>
+              Github: <a href="https://github.com/Tsiroto" class="blue-grey--text">Tsiroto</a>
             </v-card-subtitle>
           </v-card>
         </v-col>
@@ -39,6 +39,10 @@
   background: -webkit-linear-gradient(120deg, rgba(22,147,180,1) 0%, rgba(47,79,132,1) 100%);
   background: linear-gradient(120deg, rgba(22,147,180,1) 0%, rgba(47,79,132,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1693b4",endColorstr="#2f4f84",GradientType=1);
+  height: 100vh;
+  background-image: url('https://assets.codepen.io/3765537/bak.jpg');
+  background-attachment: fixed;
+  clip-path: ellipse(100vw 98vh at 50% 0%);
 }
 .about-sects {
   display: flex;
@@ -61,5 +65,8 @@
 }
 .profimage-col {
   max-width: 350px;
+}
+.header-sub {
+  background-color: #b2ebf2f0;
 }
 </style>

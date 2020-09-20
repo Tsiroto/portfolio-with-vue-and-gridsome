@@ -3,7 +3,7 @@
     <v-container>
       <v-row>
         <v-col>
-          <h1 class="text-center">Projects</h1>
+          <h1 class="text-center cyan--text text--darken-3 text-h4 font-weight-bold">Projects</h1>
         </v-col>
       </v-row>
       <v-row class="justify-space-around mb-8 mt-4">

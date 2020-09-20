@@ -3,6 +3,7 @@
     <About />
     <Projects />
     <Timeline />
+    <People />
     <Contact />
   </Layout>
 </template>
@@ -12,6 +13,7 @@ import About from '@/components/About.vue'
 import Projects from '@/components/Projects.vue'
 import Timeline from '@/components/Timeline.vue'
 import Contact from '@/components/Contact.vue'
+import People from '@/components/People.vue'
 
 export default {
   metaInfo: {
@@ -21,6 +23,7 @@ export default {
     About,
     Projects,
     Timeline,
+    People,
     Contact
   }
 }
