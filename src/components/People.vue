@@ -2,44 +2,18 @@
   <section id="people" class="people-section my-12">
     <h1 class="text-center cyan--text text--darken-3 text-h4 font-weight-bold mb-6">People I Admire</h1>
     <v-card
-    max-width="400"
-    class="mx-auto"
+    max-width="900"
+    class="mx-auto elevation-6"
     >
-      <v-system-bar
-        color="pink darken-2"
-        dark
-      >
-        <v-spacer></v-spacer>
-
-        <v-icon>mdi-window-minimize</v-icon>
-
-        <v-icon>mdi-window-maximize</v-icon>
-
-        <v-icon>mdi-close</v-icon>
-      </v-system-bar>
-
-      <v-app-bar
-        dark
-        color="pink"
-      >
-        <v-app-bar-nav-icon></v-app-bar-nav-icon>
-
-        <v-toolbar-title>People</v-toolbar-title>
-
-        <v-spacer></v-spacer>
-
-        <v-btn icon>
-          <v-icon>mdi-magnify</v-icon>
-        </v-btn>
-      </v-app-bar>
 
       <v-container>
-        <v-row dense>
+        <v-row dense class="d-flex justify-center">
 
           <v-col
             v-for="(item, i) in items"
             :key="i"
-            cols="12"
+            cols="6"
+            class="ppl-col"
           >
             <v-card
               :color="item.color"
@@ -54,21 +28,8 @@
 
                   <v-card-subtitle v-text="item.title"></v-card-subtitle>
 
-                  <v-card-action>
+                  <v-card-actions>
                     <v-btn
-                      v-if="item.person === 'Ellie Goulding'"
-                      class="ml-2 mt-3"
-                      fab
-                      icon
-                      height="40px"
-                      right
-                      width="40px"
-                    >
-                      <v-icon>mdi-play</v-icon>
-                    </v-btn>
-
-                    <v-btn
-                      v-else
                       class="ml-2 mt-5"
                       outlined
                       rounded
@@ -76,7 +37,7 @@
                     >
                       Read More
                     </v-btn>
-                  </v-card-action>
+                  </v-card-actions>
                 </div>
 
                 <v-avatar
@@ -89,6 +50,7 @@
               </div>
             </v-card>
           </v-col>
+
         </v-row>
       </v-container>
     </v-card>
@@ -97,33 +59,64 @@
 
 <script>
   export default {
+    name: 'People',
     data: () => ({
       items: [
         {
           color: '#1F7087',
-          src: '~/img/vincent.webp',
+          src: 'https://assets.codepen.io/3765537/vincent.webp',
           title: 'Artist',
           person: 'Vincent Van Gogh',
         },
         {
-          color: 'primary',
-          src: 'https://cdn.vuetifyjs.com/images/cards/halcyon.png',
+          color: '#1F7087',
+          src: 'https://assets.codepen.io/3765537/verne.gif',
           title: 'Author',
           person: 'Jules Verne',
         },
         {
           color: '#1F7087',
-          src: 'https://cdn.vuetifyjs.com/images/cards/foster.jpg',
+          src: 'https://assets.codepen.io/3765537/tesla.gif',
           title: 'Inventor - Scientist',
           person: 'Nikola Tesla',
         },
         {
-          color: 'primary',
-          src: 'https://cdn.vuetifyjs.com/images/cards/halcyon.png',
+          color: '#1F7087',
+          src: 'https://assets.codepen.io/3765537/bowie.gif',
+          title: 'Artist',
+          person: 'David Bowie',
+        },
+        {
+          color: '#1F7087',
+          src: 'https://assets.codepen.io/3765537/elon.gif',
           title: 'Entrepreneur',
           person: 'Elon Musk',
+        },
+        {
+          color: '#1F7087',
+          src: 'https://assets.codepen.io/3765537/souris.jpg',
+          title: 'Author',
+          person: 'Georgios Souris',
+        },
+        {
+          color: '#1F7087',
+          src: 'https://assets.codepen.io/3765537/sagan.gif',
+          title: 'Author',
+          person: 'Carl Sagan',
+        },
+        {
+          color: '#1F7087',
+          src: 'https://assets.codepen.io/3765537/einstein.gif',
+          title: 'Actor',
+          person: 'Albert Einstein',
         },
       ],
     }),
   }
 </script>
+
+<style scoped>
+  .ppl-col {
+    min-width: 380px;
+  }
+</style>

@@ -3,7 +3,7 @@
     <v-container>
       <v-row>
         <v-col>
-          <h1 class="text-center">Contact Information</h1>
+          <h1 class="text-center cyan--text text--darken-3 text-h4 mb-6">Contact</h1>
         </v-col>
       </v-row>
       <v-row>
@@ -51,6 +51,9 @@
 </template>
 
 <style scoped>
+.contact-section {
+  background-color: #eefbff;
+}
 .contact-icon {
   height: 30px;
 }
