@@ -2,6 +2,7 @@
   <v-app>
     <v-card
     height="100%"
+    class="d-none d-md-flex"
     >
       <v-navigation-drawer permanent fixed expand-on-hover>
         <v-list-item class="fixed-nav-header">

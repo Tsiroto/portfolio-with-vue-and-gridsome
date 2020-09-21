@@ -59,7 +59,6 @@
 
 <script>
   export default {
-    name: 'People',
     data: () => ({
       items: [
         {
@@ -107,7 +106,7 @@
         {
           color: '#1F7087',
           src: 'https://assets.codepen.io/3765537/einstein.gif',
-          title: 'Actor',
+          title: 'Physicist',
           person: 'Albert Einstein',
         },
       ],

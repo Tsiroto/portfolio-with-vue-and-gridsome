@@ -1,15 +1,15 @@
 <template>
   <section id="about" class="about-section d-flex align-center mb-16">
-    <v-container>
+    <v-container class="col-2">
       <v-row
       class="align-center about-sects"
       >
-        <v-col class="profimage-col">
+        <v-col class="col-3">
           <g-image alt="profpic" src="~/img/prof2.jpg" 
-          class="profimage elevation-10"
+          class="profimage elevation-10 rounded-circle"
           />
         </v-col>
-        <v-col>
+        <v-col class="col-3">
           <v-card
           class="align-center v-sheet--shaped header-sub"
           :elevation="14"
@@ -52,19 +52,12 @@
 }
 .about-sects * {
   min-width: 360px;
-  max-width: 450px;
   margin: 12px 20px;
-}
-.g-image {
-  border-radius: 100%;
 }
 .profimage {
   max-width: 100%;
   height: auto;
   margin: auto;
-}
-.profimage-col {
-  max-width: 350px;
 }
 .header-sub {
   background-color: #b2ebf2f0;

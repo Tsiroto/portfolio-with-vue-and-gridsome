@@ -66,7 +66,7 @@
         {
           year: '0',
           title: 'The birth of everything',
-          text: 'At the beginning there was nothing. Then suddenly there was something'
+          text: 'At the beginning there was nothing. Then, there was something.'
         },
       ],
     }),
