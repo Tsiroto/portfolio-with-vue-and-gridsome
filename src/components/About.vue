@@ -1,31 +1,16 @@
 <template>
   <section id="about" class="about-section d-flex align-center mb-16">
-    <v-container class="col-2">
+    <v-container>
       <v-row
-      class="align-center about-sects"
+      class="about-sects"
       >
-        <v-col class="col-3">
+        <!-- <v-col class="col-3">
           <g-image alt="profpic" src="~/img/prof2.jpg" 
           class="profimage elevation-10 rounded-circle"
           />
-        </v-col>
-        <v-col class="col-3">
-          <v-card
-          class="align-center v-sheet--shaped header-sub"
-          :elevation="14"
-          >
-            <v-card-title
-            class="blue-grey--text text--darken-2 font-weight-bold text-h5"
-            >
-            Hi, I'm Giorgos
-            </v-card-title>
-            <v-card-subtitle class="blue-grey--text text--darken-2">
-              Someday I'm going to be a real software developer
-              </v-card-subtitle>
-            <v-card-subtitle>
-              Github: <a href="https://github.com/Tsiroto" class="blue-grey--text">Tsiroto</a>
-            </v-card-subtitle>
-          </v-card>
+        </v-col> -->
+        <v-col class="col-2 ">
+            <v-spacer></v-spacer><h1 class="about-title text-center align-end">Giorgos Ntoufas</h1>
         </v-col>
       </v-row>
     </v-container>
@@ -50,10 +35,17 @@
   align-items: center;
   margin: auto;
 }
-.about-sects * {
+.about-title {
+  color: #6e18f3;
+  padding: 40px;
+  filter: drop-shadow(-3px -3px 2px rgba(255, 255, 255, 0.3))
+    drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2))
+    drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.2));
+}
+/* .about-sects * {
   min-width: 360px;
   margin: 12px 20px;
-}
+} */
 .profimage {
   max-width: 100%;
   height: auto;
