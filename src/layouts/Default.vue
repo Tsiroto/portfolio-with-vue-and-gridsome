@@ -114,7 +114,7 @@ html {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #2c858a;
-  border-radius: 8px;
+  border-radius: 2px;
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #1a4d50;
