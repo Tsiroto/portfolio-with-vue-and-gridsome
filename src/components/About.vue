@@ -39,16 +39,9 @@
   height: 100vh;
 }
 #supertitle {
-  /* position: absolute; */
-  top: 50%;
-  left: 50%;
   transform: translate(-50%, -50%);
   animation: fill 0.5s ease forwards 3.5s;
 }
-#supertitle path {
-  animation: fill 0.5s ease forwards 3.5s;
-}
-
 #supertitle path:nth-child(1) {
   stroke-dasharray: 187px;
   stroke-dashoffset: 187px;
