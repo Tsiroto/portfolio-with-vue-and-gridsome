@@ -88,13 +88,16 @@ html {
 .v-main {
   flex: 1 0;
 }
+.v-navigation-drawer {
+  border-radius: unset;
+}
 .v-navigation-drawer__content {
   background: rgb(28,107,132);
-  background: -moz-linear-gradient(270deg, rgb(28 107 132 / 1) 0%, rgba(22,147,180,1) 100%);
+  /* background: -moz-linear-gradient(270deg, rgb(28 107 132 / 1) 0%, rgba(22,147,180,1) 100%);
   background: -webkit-linear-gradient(270deg, rgb(28 107 132 / 1) 0%, rgba(22,147,180,1) 100%);
   background: linear-gradient(270deg, rgb(28 107 132 / 1) 0%, rgba(22,147,180,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1c6b84",endColorstr="#1693b4",GradientType=1);
-  background: linear-gradient(270deg, #2c858a 0%, #46c0c5 100%);
+  background: linear-gradient(270deg, #2c858a 0%, #46c0c5 100%); */
 }
 .fixed-nav-title {
   padding: 0;
@@ -119,4 +122,5 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: #1a4d50;
 }
+
 </style>
