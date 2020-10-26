@@ -82,22 +82,25 @@ export default {
     return {
       projects: [
         {
-          name: 'This is evidence',
+          name: 'Portfolio site',
           github: 'https://github.com/Tsiroto/vue-gridsome-test',
-          description: 'Lets plant it.',
-          image: 'https://assets.codepen.io/3765537/proj1.jpg'
+          description: 'Vue.js, Gridsome, Vuetify',
+          image: 'https://assets.codepen.io/3765537/preview.JPG',
+          preview: ''
         },
         {
-          name: 'Laptop Project',
+          name: 'This is evidence',
           github: 'https://github.com',
-          description: 'This feels like a great app, but it is not.',
-          image: 'https://assets.codepen.io/3765537/proj2.jpg'
+          description: 'Lets plant it.',
+          image: 'https://assets.codepen.io/3765537/proj1.jpg',
+          preview: ''
         },
         {
           name: 'Hiking App',
           github: 'https://github.com',
-          description: 'What does this feel like?',
-          image: 'https://assets.codepen.io/3765537/proj3.jpg'
+          description: 'This looks like a great app, but it is not',
+          image: 'https://assets.codepen.io/3765537/proj3.jpg',
+          preview: ''
         }
       ],
       projectopts: [

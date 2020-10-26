@@ -98,10 +98,8 @@
   margin: auto;
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn;
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
   -webkit-animation-delay: 2s;
   animation-delay: 2s;
   -webkit-animation-direction: alternate;
@@ -117,7 +115,7 @@
 h1 {
   /* font-family: "Libre Baskerville", sans-serif; */
   color: #FFF;
-  font-size: 2em;
+  font-size: 2.5em;
   margin-top: 50px;
   opacity: 1;
   position: relative;
