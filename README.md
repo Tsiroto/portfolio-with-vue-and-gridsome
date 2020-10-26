@@ -16,3 +16,5 @@
 * Sidebar blue gradient: #1c6b84
 * Aboutme header gradient: #1693b4
 * salmon: #D7766C
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2c87b5d3-b7c5-4866-8930-442b42f513e9/deploy-status)](https://app.netlify.com/sites/giorgosntoufas/deploys)
