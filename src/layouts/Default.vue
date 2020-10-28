@@ -92,12 +92,7 @@ html {
   border-radius: unset;
 }
 .v-navigation-drawer__content {
-  background: rgb(28,107,132);
-  /* background: -moz-linear-gradient(270deg, rgb(28 107 132 / 1) 0%, rgba(22,147,180,1) 100%);
-  background: -webkit-linear-gradient(270deg, rgb(28 107 132 / 1) 0%, rgba(22,147,180,1) 100%);
-  background: linear-gradient(270deg, rgb(28 107 132 / 1) 0%, rgba(22,147,180,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1c6b84",endColorstr="#1693b4",GradientType=1);
-  background: linear-gradient(270deg, #2c858a 0%, #46c0c5 100%); */
+  background: linear-gradient(270deg, #1b2735 0%, #0e0f15 100%);
 }
 .fixed-nav-title {
   padding: 0;
@@ -111,16 +106,18 @@ html {
 }
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 12px 1px rgb(168, 191, 206);
+  box-shadow: inset 0 0 12px 1px rgb(192, 204, 245);
   /* background: #99cde559; */
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #2c858a;
+  /* background: #2c858a; */
+  background: #1b2735;
   border-radius: 2px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #1a4d50;
+  background: #1b2735;
+  cursor: pointer;
 }
 
 </style>

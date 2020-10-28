@@ -3,7 +3,7 @@
     <v-container>
       <v-row>
         <v-col>
-          <h1 class="text-center cyan--text text--darken-3 text-h4 mb-6">Contact</h1>
+          <h1 class="text-center white--text text-h4 mb-6">Where to find me</h1>
         </v-col>
       </v-row>
       <v-row>
@@ -18,23 +18,7 @@
           />
           <img 
           class="contact-icon"
-          src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/stackoverflow.svg"
-          />
-          <img 
-          class="contact-icon"
-          src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/reddit.svg"
-          />
-          <img 
-          class="contact-icon"
-          src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg"
-          />
-          <img 
-          class="contact-icon"
           src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg"
-          />
-          <img 
-          class="contact-icon"
-          src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg"
           />
           <img 
           class="contact-icon"
@@ -52,7 +36,8 @@
 
 <style scoped>
 .contact-section {
-  background-color: #eefbff;
+  background-color: #2c3c50;
+  color: #FFF;
 }
 .contact-icon {
   height: 30px;

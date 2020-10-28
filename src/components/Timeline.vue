@@ -3,13 +3,12 @@
     <v-container>
       <v-row>
         <v-col>
-          <h1 class="text-center red--text text--darken-1 text-h4 font-weight-bold">5G Warning</h1>
+          <h1 class="text-center white--text text-h4 font-weight-bold">5G Warning</h1>
         </v-col>
       </v-row>
       <v-row class="w-80">
         <v-col>
           <div>
-            <v-switch v-model="reverse" label="Toggle reverse"></v-switch><br>
             <v-timeline :reverse="reverse" :dense="$vuetify.breakpoint.smAndDown"
             class="tmln-itm"
             >
@@ -75,7 +74,11 @@
 
 <style scoped>
 .warning-section {
-  background-color: #eefbff;
+  background-color: #2c3c50;
+  color: #FFF;
+}
+.headline {
+  color:#2c3c50;
 }
 .tmln-itm {
   max-width: 80%;

@@ -62,52 +62,60 @@
     data: () => ({
       items: [
         {
-          color: '#1F7087',
+          color: '#2c3c50',
           src: 'https://assets.codepen.io/3765537/vincent.webp',
-          title: 'Artist',
+          title: 'Painter',
           person: 'Vincent Van Gogh',
+          wiki: 'https://en.wikipedia.org/wiki/Vincent_van_Gogh'
         },
         {
-          color: '#1F7087',
+          color: '#2c3c50',
           src: 'https://assets.codepen.io/3765537/verne.gif',
-          title: 'Author',
+          title: 'Novelist',
           person: 'Jules Verne',
+          wiki: 'https://en.wikipedia.org/wiki/Jules_Verne'
         },
         {
-          color: '#1F7087',
+          color: '#2c3c50',
           src: 'https://assets.codepen.io/3765537/tesla.gif',
           title: 'Inventor - Scientist',
           person: 'Nikola Tesla',
+          wiki: 'https://en.wikipedia.org/wiki/Nikola_Tesla'
         },
         {
-          color: '#1F7087',
+          color: '#2c3c50',
           src: 'https://assets.codepen.io/3765537/bowie.gif',
           title: 'Artist',
           person: 'David Bowie',
+          wiki:'https://en.wikipedia.org/wiki/David_Bowie'
         },
         {
-          color: '#1F7087',
+          color: '#2c3c50',
           src: 'https://assets.codepen.io/3765537/elon.gif',
           title: 'Entrepreneur',
           person: 'Elon Musk',
+          wiki: 'https://en.wikipedia.org/wiki/Elon_Musk'
         },
         {
-          color: '#1F7087',
+          color: '#2c3c50',
           src: 'https://assets.codepen.io/3765537/souris.jpg',
-          title: 'Author',
+          title: 'Poet',
           person: 'Georgios Souris',
+          wiki: 'https://simple.wikipedia.org/wiki/Georgios_Souris'
         },
         {
-          color: '#1F7087',
+          color: '#2c3c50',
           src: 'https://assets.codepen.io/3765537/sagan.gif',
-          title: 'Author',
+          title: 'Astronomer',
           person: 'Carl Sagan',
+          wiki: 'https://en.wikipedia.org/wiki/Carl_Sagan'
         },
         {
-          color: '#1F7087',
+          color: '#2c3c50',
           src: 'https://assets.codepen.io/3765537/einstein.gif',
-          title: 'Physicist',
+          title: 'Theoretical Physicist',
           person: 'Albert Einstein',
+          wiki: 'https://en.wikipedia.org/wiki/Albert_Einstein'
         },
       ],
     }),
