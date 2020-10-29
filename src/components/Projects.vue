@@ -1,9 +1,9 @@
 <template>
-  <section id="projects" class="project-section">
+  <section id="projects" class="projects-section">
     <v-container>
       <v-row>
         <v-col>
-          <h1 class="text-center cyan--text text--darken-3 text-h4 font-weight-bold">Projects</h1>
+          <h1 class="text-center text-h4 font-weight-bold">Projects</h1>
         </v-col>
       </v-row>
       <v-row class="justify-space-around mb-8 mt-4">
@@ -39,10 +39,10 @@
               </v-btn>
             </template>
             <v-list dense>
-              <v-subheader>Project Options</v-subheader>
+              <!-- <v-subheader>Project Options</v-subheader> -->
               <v-list-item class="item-list">
                 <v-btn
-                color="orange"
+                color="pink"
                 text
                 :href="project.github"
               >
@@ -51,7 +51,7 @@
               </v-list-item>
               <v-list-item class="item-list">
                 <v-btn
-                color="orange"
+                color="pink"
                 text
                 :href="project.github"
               >
@@ -60,9 +60,10 @@
               </v-list-item>
               <v-list-item class="item-list">
               <v-btn
-                color="orange"
+                color="pink"
                 text
                 :href="project.github"
+                target="blank"
               >
                 Github Repo
               </v-btn>
@@ -122,6 +123,9 @@ export default {
 </script>
 
 <style scoped>
+.projects-section {
+  color: #2c3c50;
+}
 .project-card {
   margin: 8px 12px;
 }

@@ -1,9 +1,9 @@
 <template>
-  <section id="warning" class="warning-section">
+  <section id="timeline" class="timeline-section">
     <v-container>
       <v-row>
         <v-col>
-          <h1 class="text-center white--text text-h4 font-weight-bold">5G Warning</h1>
+          <h1 class="text-center text-h4 font-weight-bold">5G Warning</h1>
         </v-col>
       </v-row>
       <v-row class="w-80">
@@ -73,9 +73,8 @@
 </script>
 
 <style scoped>
-.warning-section {
-  background-color: #2c3c50;
-  color: #FFF;
+.timeline-section {
+  color: #2c3c50;
 }
 .headline {
   color:#2c3c50;
